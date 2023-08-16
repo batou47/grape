@@ -1,0 +1,148 @@
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #070707;
+    height: auto;
+    width: 100vw;
+    font-family: "Poppins", sans-serif;
+    padding-top: 40px;
+    color: #fff;
+    margin-top: auto;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li {
+    margin: 0 10px;
+}
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i {
+    color: rgb(78, 51, 142);
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+@media screen and (min-width: 300px) {
+    footer{
+        bottom: -55vh;
+    }
+}
+@media screen and (min-width: 650px) {
+    footer{
+        bottom: -55vh;
+    }
+}
+@media screen and (min-width: 1100px) {
+    footer{
+        bottom: -50vh;
+    }
+}
+@media screen and (min-width: 1400px) {
+    footer{
+        bottom: -30vh;
+    }
+}
+@media screen and (max-width: 940) {
+    footer{
+        bottom: -60vh;
+    }
+}
+
+
+@media screen and (min-height: 200px) {
+    footer{
+        bottom: -400vh;
+    }
+}
+@media screen and (min-height: 300px) {
+    footer{
+        bottom: -270vh;
+    }
+}
+@media screen and (min-height: 350px) {
+    footer{
+        bottom: -240vh;
+    }
+}
+@media screen and (min-height: 430px) {
+    footer{
+        bottom: -180vh;
+    }
+}
+@media screen and (min-height: 500px) {
+    footer{
+        bottom: -150vh;
+    }
+}
+@media screen and (min-height: 550px) {
+    footer{
+        bottom: -110vh;
+    }
+}
+@media screen and (min-height: 650px) {
+    footer{
+        bottom: -105vh;
+    }
+}
+@media screen and (min-height: 750px) {
+    footer{
+        bottom: -90vh;
+    }
+}
+@media screen and (min-height: 850px) {
+    footer{
+        bottom: -70vh;
+    }
+}
+@media screen and (min-height: 900px) {
+    footer{
+        bottom: -40vh;
+    }
+}

@@ -1,0 +1,324 @@
+body {
+  /* Make body of the page full-screen */
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+  /* Set background color to black */
+    background-color: black;
+    overflow: hidden;
+  }
+
+  .rubik-font {
+    font-family: "Rubik", sans-serif;
+  }
+
+  main {
+    /* Import background image */
+    background-image: url("/static/images/sneaker.png");
+    background-position: center 50%;
+    /* Make image full-screen */
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: center;
+    /* Give it position 2, behind button but over toggle menu */
+    position: relative;
+    z-index: 2;
+    /* Make the transition smooth */
+    transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
+  }
+
+  body[data-nav="true"] > main {
+    transform: translateY(-50%);
+  }
+
+  nav {
+    /* Take half the page */
+    height: 50vh;
+    width: 100%;
+    /* Bottom left of the screen */
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    /* Bottom of the stack */
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  #nav-links {
+    /* Make images go from left to right, not top to bottom */
+    display: flex;
+    /* Gap between images */
+    gap: clamp(1rem, 2vw, 2rem);
+    /* Gap between cutain and menu */
+    margin-top: clamp(2rem, 2vw, 3rem);
+    /* Add space around the menu */
+    padding: 0rem clamp(5.5vw, 2vw, 2rem);
+    /* By default, shifted downward a bit + scale reduced */
+    transform: translateY(70%) scale(0.9);
+    /* Make the transition smooth */
+    transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
+  }
+
+  body[data-nav="true"] > nav > #nav-links {
+    transform: translateY(0%) scale(1);
+  }
+
+  #nav-links > .nav-link {
+    /* Not underline */
+    text-decoration: none;
+  }
+
+  #nav-links > .nav-link > .nav-link-label {
+    color: white;
+    font-size: 1.25rem;
+    /* No margin */
+    margin: 0rem;
+    text-transform: uppercase;
+  }
+
+  #nav-links > .nav-link > .nav-link-login {
+    color: white;
+    font-size: 2rem;
+    /* No margin */
+    margin: 0rem;
+    margin-top: clamp(4rem, 2vw, 3rem);
+    position: right;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-transform: uppercase;
+  }
+
+  #nav-links > .nav-link > .nav-link-image {
+    width: 21vw;
+    aspect-ratio: 1.9 / 1;
+    /* Round image corners */
+    border-radius: 0.5rem;
+    /* Space between image and text */
+    margin-top: 0.75rem;
+    /* Fix proportions (don't stretch image) */
+    object-fit: cover;
+  }
+
+  #nav-toggle {
+    /* Increase size */
+    height: 5rem;
+    width: 5rem;
+    /* Sit on top of everything else */
+    position: fixed;
+    z-index: 3;
+    /* Put it in the middle of the screen */
+    left: 50%;
+    /* Up a bit */
+    bottom: 3rem;
+    /* Set button color to purple */
+    background-color: rgb(52, 43, 101);
+    /* No border */
+    border: none;
+    /* Make the button round */
+    border-radius: 5rem;
+    box-shadow: 0rem 0rem 4rem rgba(0 0 0 / 35%);
+    cursor: pointer;
+    transition: transform, background-color;
+    transition-timing-function: ease;
+    transition-duration: 400ms;
+  }
+
+  #nav-toggle:hover {
+    transform: scale(1.04);
+  }
+
+  #nav-toggle:active {
+    transform: scale(0.96);
+  }
+
+  body[data-nav="true"] > #nav-toggle {
+    background-color: rgb(255, 255, 255);
+  }
+
+  #nav-toggle > i {
+    /* Icons stacked over each other */
+    position: absolute;
+    /* Centered */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    /* Color */
+    color: rgb(246, 231, 224);
+    /* Change size */
+    font-size: 1.75rem;
+    /* Invisible by default */
+    opacity: 0;
+    transition: transform, opacity;
+    transition-timing-function: ease;
+    transition-duration: 400ms;
+  }
+
+  body[data-nav="true"] > #nav-toggle > .close {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+
+  h1 {
+    color: white;
+    font-family: "Futura", san-serif;
+    font-size: 11vw;
+    font-weight: 400;
+    margin: 0px;
+    padding: 20px;
+    position: fixed;
+    z-index: 2;
+    left: 5%;
+    top: 33%;
+  }
+
+  h3 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    width: 100vw;
+    font-size: 2.5em;
+    letter-spacing: 15px;
+    margin: 0px;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    z-index: 2;
+    top: 0%;
+  }
+
+
+
+
+  :root {
+    --purple: rgb(52, 43, 101);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(183, 144, 212);
+  }
+
+  @keyframes background-pan {
+    from {
+      background-position: 0% center;
+    }
+
+    to {
+      background-position: -200% center;
+    }
+  }
+
+  @keyframes scale {
+    from, to {
+      transform: scale(0);
+    }
+
+    50% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(180deg);
+    }
+  }
+
+
+
+  h3 > .magic {
+    display: inline-block;
+    position: relative;
+  }
+
+  h3 > .magic > .magic-star {
+    --size: clamp(20px, 1.5vw, 30px);
+
+    animation: scale 700ms ease forwards;
+    display: block;
+    height: var(--size);
+    left: var(--star-left);
+    position: absolute;
+    top: var(--star-top);
+    width: var(--size);
+  }
+
+  h3 > .magic > .magic-star > svg {
+    animation: rotate 1000ms linear infinite;
+    display: block;
+    opacity: 0.7;
+  }
+
+  h3 > .magic > .magic-star > svg > path {
+    fill: var(--violet);
+  }
+
+  h3 > .magic > .magic-text {
+    animation: background-pan 2.5s linear infinite;
+    background: linear-gradient(
+      to right,
+      var(--purple),
+      var(--violet),
+      var(--pink),
+      var(--purple)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+
+
+
+
+
+
+
+  h4 > .magic {
+    display: inline-block;
+    position: relative;
+  }
+
+  h4 > .magic > .magic-star {
+    --size: clamp(20px, 1.5vw, 30px);
+
+    animation: scale 700ms ease forwards;
+    display: block;
+    height: var(--size);
+    left: var(--star-left);
+    position: absolute;
+    top: var(--star-top);
+    width: var(--size);
+  }
+
+  h4 > .magic > .magic-star > svg {
+    animation: rotate 1000ms linear infinite;
+    display: block;
+    opacity: 0.7;
+  }
+
+  h4 > .magic > .magic-star > svg > path {
+    fill: var(--violet);
+  }
+
+  h4 > .magic > .magic-text {
+    animation: background-pan 2.5s linear infinite;
+    background: linear-gradient(
+      to right,
+      var(--purple),
+      var(--violet),
+      var(--pink),
+      var(--purple)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+
+
+
+
+

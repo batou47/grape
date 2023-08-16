@@ -1,0 +1,135 @@
+button {
+    background: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 40px;
+    float: right;
+    transition: all 0.4s ease
+}
+
+.btn-j4-metallic-purple:hover {
+    background: #4E338E;
+    color: #fff;
+}
+
+.btn-j4-metallic-red:hover {
+    background: #a2212c;
+    color: #fff;
+}
+
+.btn-j4-metallic-green:hover {
+    background: #0d6525;
+    color: #fff;
+}
+
+.btn-j4-white-oreo:hover {
+    background: #a8a4a3;
+    color: #fff;
+}
+
+.btn-j4-columbia:hover {
+    background: #18202d;
+    color: #fff;
+}
+
+.btn-j4-university-blue:hover {
+    background: #8397b6;
+    color: #fff;
+}
+
+.btn-j4-lightning:hover {
+    background: #cba64d;
+    color: #fff;
+}
+
+.btn-j4-black-cat:hover {
+    background: #0f1012;
+    color: #fff;
+}
+
+.btn-j1-court-purple-white:hover {
+    background: #3c2d67;
+    color: #fff;
+}
+
+.btn-j1-bred-toe:hover {
+    background: #b21f29;
+    color: #fff;
+}
+
+.btn-j1-pine-green:hover {
+    background: #166445;
+    color: #fff;
+}
+
+.btn-j1-university-blue:hover {
+    background: #93b1d8;
+    color: #fff;
+}
+
+.btn-j1-sb-unc:hover {
+    background: #5797cc;
+    color: #fff;
+}
+
+.btn-j1-travis-scott-fragment:hover {
+    background: #184773;
+    color: #fff;
+}
+
+.btn-j1-travis-scott-reverse-mocha:hover {
+    background: #564e4b;
+    color: #fff;
+}
+
+.btn-j1-travis-scott-black-phantom:hover {
+    background: #0b0b0b;
+    color: #fff;
+}
+
+.btn-dunk-court-purple:hover {
+    background: #392f4a;
+    color: #fff;
+}
+
+.btn-dunk-university-red:hover {
+    background: #c9262b;
+    color: #fff;
+}
+
+.btn-dunk-michigan-state:hover {
+    background: #2b3937;
+    color: #fff;
+}
+
+.btn-dunk-grey-frog:hover {
+    background: #b8b4b3;
+    color: #fff;
+}
+
+.btn-dunk-unc:hover {
+    background: #66abde;
+    color: #fff;
+}
+
+.btn-dunk-circuit-orange:hover {
+    background: #b86918;
+    color: #fff;
+}
+
+.btn-dunk-strange-love:hover {
+    background: #c17579;
+    color: #fff;
+}
+
+.btn-dunk-panda:hover {
+    background: #212121;
+    color: #fff;
+}

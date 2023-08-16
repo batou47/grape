@@ -1,0 +1,209 @@
+@color-primary: #30a9de;
+@color-secondary: #30a9de;
+@color-tertiary: #30a9de;
+@color-primary-light: #6aafe6;
+@color-primary-dark: #8ec0e4;
+@Distance: 1000px;
+
+body {
+  overflow: hidden;
+}
+
+html,
+body {
+  position: relative;
+  background: rgb(255, 255, 255);
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #537ACE;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  justify-content: center;
+}
+
+.MainDescription {
+  max-width: 50%;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.MainGraphic {
+  position: relative;
+}
+
+.shuttle {
+  width: 13rem;
+  height: 13rem;
+  margin: 10rem;
+  transition: easeInOutQuint();
+  animation: CogAnimation 30s linear infinite;
+}
+
+.astronaut {
+  width: 20rem;
+  height: 20rem;
+  transition: easeInOutQuint();
+  animation: CogAnimation2 25s linear infinite;
+}
+
+.world {
+  width: 15rem;
+  height: 15rem;
+  transition: easeInOutQuint();
+}
+
+@keyframes CogAnimation {
+  0% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes CogAnimation2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+h1 {
+    color: black;
+    font-family: "Rockwell", bold;
+    font-size: 6vw;
+    font-weight: 400;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 20px;
+    position: fixed;
+    z-index: 2;
+    text-align: center;
+    top: 13%;
+  }
+
+  
+  h2 {
+    color: black;
+    font-family: "Rockwell", bold;
+    font-size: 4vw;
+    font-weight: 400;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    top: 2%;
+  }
+
+
+
+
+
+  h3 {
+    color: black;
+    font-family: "Rockwell", san-serif;
+    font-size: 3vw;
+    font-weight: 400;
+    margin: 0px;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    bottom: 5%;
+  }
+
+
+
+
+  :root {
+    --purple: rgb(52, 43, 101);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(183, 144, 212);
+  }
+
+  @keyframes background-pan {
+    from {
+      background-position: 0% center;
+    }
+
+    to {
+      background-position: -200% center;
+    }
+  }
+
+  @keyframes scale {
+    from, to {
+      transform: scale(0);
+    }
+
+    50% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(180deg);
+    }
+  }
+
+
+
+  h3 > .magic {
+    display: inline-block;
+    position: relative;
+  }
+
+  h3 > .magic > .magic-star {
+    --size: clamp(20px, 1.5vw, 30px);
+
+    animation: scale 700ms ease forwards;
+    display: block;
+    height: var(--size);
+    left: var(--star-left);
+    position: absolute;
+    top: var(--star-top);
+    width: var(--size);
+  }
+
+  h3 > .magic > .magic-star > svg {
+    animation: rotate 1000ms linear infinite;
+    display: block;
+    opacity: 0.7;
+  }
+
+  h3 > .magic > .magic-star > svg > path {
+    fill: var(--violet);
+  }
+
+  h3 > .magic > .magic-text {
+    animation: background-pan 2.5s linear infinite;
+    background: linear-gradient(
+      to right,
+      var(--purple),
+      var(--violet),
+      var(--purple)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+

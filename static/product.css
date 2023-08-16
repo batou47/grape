@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    background: #000;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 78.5vw;
+    height: 700px;
+    background: #fff;
+    margin: 20px;
+
+}
+
+.container .imgBx {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: white;
+    transition: .3s linear;
+}
+
+.container .imgBx:before {
+    content: 'Nike';
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    color: #000;
+    opacity: 0.2;
+    font-size: 8em;
+    font-weight: 800;
+}
+
+.container .imgBx img {
+    z-index: 2;
+    clip: rect(200px, 0, 10px, 20px);
+    left: 25px;
+    top: 30px;
+    position: relative;
+    width: 41.8vw;
+    transition: .6s linear;
+}
+
+.container .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.details {
+    z-index: 5;
+}
+
+.container .details h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.8em;
+    line-height: 1em;
+    color: #444;
+}
+
+.container .details h2 span {
+    font-size: 0.55em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;
+}
+
+.container .details p {
+    max-width: 85%;
+    margin-left: 15%;
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 36px;
+}
+
+.container .details h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    float: left;
+}
+
+.product-colors span {
+    width: 26px;
+    height: 26px;
+    top: 7px;
+    margin-right: 12px;
+    left: 10px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.black {
+    background: #000;
+}
+
+.red {
+    background: #D5212E;
+}
+
+.orange {
+    background: #F18557;
+}
+
+.product-colors .active:after{
+    content: "";
+    width: 36px;
+    height: 36px;
+    border: 2px solid #000;
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    left: -5px;
+    top: -5px;
+}
+
+/* responsive */
+@media (max-width: 950px) {
+    .container {
+        height: auto;
+        margin-top: 10vh;
+    }
+    .container .imgBx {
+        padding: 40px;
+        box-sizing: border-box;
+        width: 100% !important;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+    }
+    .container .imgBx img {
+        left: initial;
+        max-width: 100%;
+        transform: rotate(0deg);
+        width: 80vw;
+    }
+    .container .imgBx:before {
+        font-size: 5em;
+    }
+    .details {
+        width: 100% !important;
+        height: auto;
+        padding: 20px;
+    }
+    .container .details p {
+        margin-left: 0;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .container {
+        margin-top: 15vh;
+}
+}
+
+
+.dropdown {
+    position: relative;
+    margin-top: 30px;
+    width: 350px;
+    height: 60px;
+}
+.dropdown::before {
+    content:'';
+    position: absolute;
+    right: 20px;
+    top: 19px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #333;
+    z-index: 10000;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(-45deg);
+    transition: 0.5s;
+    pointer-events: none;
+}
+.dropdown.active::before {
+    top: 22px;
+    transform: rotate(-225deg);
+}
+.dropdown input {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: #fff;
+    border: none;
+    outline: 2px #444 solid;
+    box-shadow: 0 5px 20px rgba(0,0,0, 0.05);
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+.dropdown .option
+{
+    position: absolute;
+    top: 70px;
+    height: 200px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 30px 30px rgba(0,0,0, 0.05);
+    border-radius: 10px;
+    overflow: scroll;
+    display: none;
+}
+.dropdown.active .option {
+    display: block;
+    z-index: 1000000;
+}
+.dropdown .option div {
+    padding: 12px 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.dropdown .option div:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+
+.quantity {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 60px;
+}
+
+.quantity input {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: #fff;
+    border: none;
+    outline: 2px #444 solid;
+    box-shadow: 0 5px 20px rgba(0,0,0, 0.05);
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+.quantity .option {
+    position: absolute;
+    top: 70px;
+    height: 200px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 30px 30px rgba(0,0,0, 0.05);
+    border-radius: 10px;
+    overflow: scroll;
+    display: none;
+}

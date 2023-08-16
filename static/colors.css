@@ -1,0 +1,514 @@
+.btn-buy-j4-metallic-purple{
+    background: white;
+}
+.btn-buy-j4-metallic-purple:hover{
+    background: #4E338E;
+    color: white;
+}
+.btn-buy-j4-metallic-purple{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+
+.btn-buy-j4-metallic-red{
+    background: white;
+}
+.btn-buy-j4-metallic-red:hover{
+    background: #a2212c;
+    color: white;
+}
+.btn-buy-j4-metallic-red{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+
+.btn-buy-j4-metallic-green{
+    background: white;
+}
+.btn-buy-j4-metallic-green:hover{
+    background: #0d6525;
+    color: white;
+}
+.btn-buy-j4-metallic-green{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+
+.btn-buy-j4-white-oreo{
+    background: white;
+}
+.btn-buy-j4-white-oreo:hover{
+    background: #a8a4a3;
+    color: white;
+}
+.btn-buy-j4-white-oreo{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+
+.btn-buy-j4-columbia{
+    background: white;
+}
+.btn-buy-j4-columbia:hover{
+    background: #18202d;
+    color: white;
+}
+.btn-buy-j4-columbia{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+
+.btn-buy-j4-university-blue{
+    background: white;
+}
+.btn-buy-j4-university-blue:hover{
+    background: #8397b6;
+    color: white;
+}
+.btn-buy-j4-university-blue{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+
+.btn-buy-j4-lightning{
+    background: white;
+}
+.btn-buy-j4-lightning:hover{
+    background: #cba64d;
+    color: white;
+}
+.btn-buy-j4-lightning{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+
+.btn-buy-j4-black-cat{
+    background: white;
+}
+.btn-buy-j4-black-cat:hover{
+    background: #0f1012;
+    color: white;
+}
+.btn-buy-j4-black-cat{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+.btn-buy-j1-bred-toe{
+    background: white;
+}
+.btn-buy-j1-bred-toe:hover{
+    background: #b21f29;
+    color: white;
+}
+.btn-buy-j1-bred-toe{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+
+.btn-buy-j1-court-purple-white{
+    background: white;
+}
+.btn-buy-j1-court-purple-white:hover{
+    background: #3c2d67;
+    color: white;
+}
+.btn-buy-j1-court-purple-white{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+.btn-buy-j1-pine-green{
+    background: white;
+}
+.btn-buy-j1-pine-green:hover{
+    background: #166445;
+    color: white;
+}
+.btn-buy-j1-pine-green{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+.btn-buy-j1-sb-unc{
+    background: white;
+}
+.btn-buy-j1-sb-unc:hover{
+    background: #5797cc;
+    color: white;
+}
+.btn-buy-j1-sb-unc{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+.btn-buy-j1-travis-scott-black-phantom{
+    background: white;
+}
+.btn-buy-j1-travis-scott-black-phantom:hover{
+    background: #0b0b0b;
+    color: white;
+}
+.btn-buy-j1-travis-scott-black-phantom{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+.btn-buy-j1-travis-scott-fragment{
+    background: white;
+}
+.btn-buy-j1-travis-scott-fragment:hover{
+    background: #184773;
+    color: white;
+}
+.btn-buy-j1-travis-scott-fragment{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+.btn-buy-j1-travis-scott-reverse-mocha{
+    background: white;
+}
+.btn-buy-j1-travis-scott-reverse-mocha:hover{
+    background: #564e4b;
+    color: white;
+}
+.btn-buy-j1-travis-scott-reverse-mocha{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+.btn-buy-j1-university-blue{
+    background: white;
+}
+.btn-buy-j1-university-blue:hover{
+    background: #93b1d8;
+    color: white;
+}
+.btn-buy-j1-university-blue{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+.btn-buy-dunk-circuit-orange{
+    background: white;
+}
+.btn-buy-dunk-circuit-orange:hover{
+    background: #b86918;
+    color: white;
+}
+.btn-buy-dunk-circuit-orange{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+.btn-buy-dunk-court-purple{
+    background: white;
+}
+.btn-buy-dunk-court-purple:hover{
+    background: #392f4a;
+    color: white;
+}
+.btn-buy-dunk-court-purple{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+
+.btn-buy-dunk-grey-frog{
+    background: white;
+}
+.btn-buy-dunk-grey-frog:hover{
+    background: #b8b4b3;
+    color: white;
+}
+.btn-buy-dunk-grey-frog{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+.btn-buy-dunk-michigan-state{
+    background: white;
+}
+.btn-buy-dunk-michigan-state:hover{
+    background: #2b3937;
+    color: white;
+}
+.btn-buy-dunk-michigan-state{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+
+.btn-buy-dunk-panda{
+    background: white;
+}
+.btn-buy-dunk-panda:hover{
+    background: #212121;
+    color: white;
+}
+.btn-buy-dunk-panda{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+.btn-buy-dunk-strange-love{
+    background: white;
+}
+.btn-buy-dunk-strange-love:hover{
+    background: #c17579;
+    color: white;
+}
+.btn-buy-dunk-strange-love{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+.btn-buy-dunk-unc{
+    background: white;
+}
+.btn-buy-dunk-unc:hover{
+    background: #66abde;
+    color: white;
+}
+.btn-buy-dunk-unc{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
+.btn-buy-dunk-university-red{
+    background: white;
+}
+.btn-buy-dunk-university-red:hover{
+    background: #c9262b;
+    color: white;
+}
+.btn-buy-dunk-university-red{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+    z-index: 7;
+}
+
+
